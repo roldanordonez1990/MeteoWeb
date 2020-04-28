@@ -1,0 +1,310 @@
+#divPrincipal {
+    width: 90%;
+    height: 90%;
+    margin:0 auto;
+}
+
+.banner{
+    margin-right: auto;
+    width: 90%;
+    text-align: center; 
+
+}
+/* div para el menú principal*/
+.divMenu{
+    margin:auto;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 3%;
+
+}
+
+/* menú principal, habrá una sucesión de ul y li, a medida que el ratón vaya interactuando, cambiarán los formatos, como el hover, o cuando aparece un li después de un ul*/
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:18px;
+    } 
+    nav li{
+    display:inline-block;
+    width:104px;
+    height:22px;
+    margin-right: 0 auto;
+    padding:5px 53px;
+    background-color:rgba(6, 139, 88, 0.897);
+    border:1px solid rgb(0, 0, 0);
+    text-align:center;
+    color:#fff;
+    position:relative;
+    }
+    nav li:hover{
+    background-color:rgba(238, 135, 75, 0.89);
+    color:rgb(0, 0, 0);
+    }
+
+    nav li>ul{
+        display:none;
+        }
+  
+  nav li:hover>ul{
+        display:inline-block;
+        position:absolute;
+        top:33px;
+        left:-41px;
+        right: 1px;
+  }
+
+  li {
+      text-align: center;
+  }
+
+  /* div contenedor para meter dentro otros div principales*/
+  .contenedor {
+    margin-top: 20px;
+    width: 100%;  
+    
+    margin:0 auto;
+}
+/* A continuación aparecerán diferentes div cada uno con valores determinados */
+.contenedorFormulario{
+    max-width: 450px;
+    height: auto;
+    background-color: #ffc57a;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+   }
+
+.submenu {
+    width: 30%; 
+    word-wrap: break-word;
+    color: cornsilk;
+   
+}
+
+.submenuDos {
+    width: 60%; 
+    word-wrap: break-word;
+    color: cornsilk;
+    margin: 0 auto;
+    display: table;
+    margin-left: 25px;
+    
+}
+
+.submenuTres {
+    width: 60%; 
+    word-wrap: break-word;
+    padding-top: 5px;
+    color: cornsilk;
+    margin-top:0px;
+    vertical-align: top;
+}
+.submenuCuatro {
+    width: 30%; 
+    word-wrap: break-word;
+    color: cornsilk;
+    margin-left: 750px;
+    background: rrgba(238, 135, 75, 0.89);
+}
+
+.menuRRSS {
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.651);
+}
+
+.menuTablaNubes {
+    width: 100%;
+    background-color: rgb(252, 242, 240);
+}
+
+.textoTarjeta{
+    width: 90%;
+    word-wrap: break-word;
+    font-family: 'Bangers', cursive;
+    color: black;
+    float:left;
+    background-color: rgba(238, 135, 75, 0.89);
+    text-align: center;
+    margin-top: 2px;
+    font-family: 'Exo', sans-serif;
+     
+}
+.textoTarjetaDos{
+    width: 90%;
+    word-wrap: break-word;
+    font-family: 'Bangers', cursive;
+    color: black;
+    float:left;
+    background-color: rgba(238, 135, 75, 0.89);
+    text-align: center;
+    margin-left: 18px;
+    
+}
+
+.textoFormacionNubes{
+    width: 100%;
+    word-wrap: break-word;
+    font-family: 'Bangers', cursive;
+    color: black;
+    background-color: rgba(238, 135, 75, 0.89);
+    text-align: center;
+    
+    
+}
+
+.tarjeta {
+    border: 1px solid #000000;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 1%;
+    vertical-align:top;
+    
+}
+/* en el body indicamos el fondo de la pantalla con una url de imagen. Con fixed hacemos que no se mueva*/
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/580fbaac440243d8731ffc57/1490112789680-NV4CVNNQPIDPELF2XN27/ke17ZwdGBToddI8pDm48kJ0lej6MlCqKAUx1EqBpSQQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcsCUlr2_RWyHhBmLwvddopt0kox41Ncyh6WdZCVnnhw9FspE4q2BscMKK5-NBcyqH/6806402045_f692af2b17_o.jpg?format=1500w);
+    background-attachment: fixed;
+    
+}
+
+/* le damos valores a la lista, imágenes, enlaces, encabezados, párrafos, tablas, etc*/
+li {
+    font-size: larger;
+    color: rgb(255, 250, 250);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.imagenLogo {
+    width: 30%;
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: medium;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+}
+
+table {
+    width:100%;
+}
+
+td {
+    color: rgba(238, 135, 75, 0.89);
+    background-color: rgba(6, 139, 88, 0.897);
+}
+
+th {
+    text-align: center;
+    color:black;
+    background-color: rgba(238, 135, 75, 0.89);
+    font-family: 'Exo', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+h3 {
+  text-align: left;
+    color: blanchedalmond;
+}
+
+h4 {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: larger;
+}
+
+.imagenAnchoCompleto {
+    width: 100%;
+}
+
+/* damos formatos a los span*/
+#queEsMeteo {
+    text-decoration: underline;
+    color: beige;
+    font-size: larger;
+}
+#litosfera {
+    font-weight: bold;
+}
+#hidrosfera {
+    font-weight: bold;
+}
+#atmosfera {
+    font-weight: bold;
+}
+
+/* css para el formulario*/
+   .form-top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem #f39b53;
+    margin-bottom: 1rem;
+   }
+   .form-top h2{
+   font-weight: bold;
+   color: #070000;
+   font-size: 18px;
+   
+   }
+  
+   .form-reg{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .btn-form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+   }
+
+   /* con input damos órdenes a partir de unos botones. En este caso con submit (enviar) y reset(para limpiar)*/
+   .input, .btn-submit, .btn-reset{
+    background-color: #f8f8f8;
+    padding: .5rem;
+    margin: .5rem 0;
+    border:none;
+    border-bottom: solid #1f854d .2rem;
+    transition: all .5s;
+   }
+
+   /* con input focus cambiamos de color el borde de abajo cuando cliclamos en la celda */
+   .input:focus{
+    border-bottom: solid #bb3232 .2rem;
+   }
+   .btn-submit, .btn-reset{
+    width: 40%;
+    border-bottom: 0px;
+    background-color: #03b96e;
+    color: white;
+   }
+   .btn-reset{
+    background-color: #f39004;
+   }
+   .btn-submit:hover{
+    background-color: #7de779;
+   
+   }
+   .btn-reset:hover{
+    background-color: #fa9535;
+   }

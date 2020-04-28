@@ -1,0 +1,217 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <title>Meteo Web Francisco Roldán</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" http-equiv="content-language"
+        content="es_es" name="description" content="metadatos para nuestra primera página" name="abstract"
+        content="descripción corta" name="author" content="Francisco Roldan" name="copyright"
+        content="creativ commons license" name="date" content="04-02-2020" name="generator"
+        content="Macromedia Dreamweaver" name="keywords" content="lenguajes de marcas" name="locality"
+        content="Rute, Cordoba, España" />
+    <link href="css/indexMeteo.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="divPrincipal">
+        <div class="banner">
+            <img src="imagesMeteo/banner1.png" />
+        </div>
+
+        <div class="divMenu">
+            <nav>
+                <ul>
+                    <li><a href="indexMeteo.html">Inicio</a></li>
+                    
+                    <li><a href="#">Predicción</a>
+                        <ul>
+                            <li><a href="https://www.eltiempo.es/" target="_new">España</a></li>
+                            <li><a href="https://www.eltiempo.es/el-mundo" target="_new">Mundo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mapas</a>
+                        <ul>
+                            <li><a href="http://www.meteociel.fr/modeles/gfse_cartes.php" target="_new">Sinópticos</a></li>
+                            <li><a href="http://www.aemet.es/es/eltiempo/observacion/radar" target="_new">Radares</a></li>
+                            <li><a href="http://www.meteociel.fr/modeles/gfse_cartes.php?ech=6&code=0&mode=2" target="_new">Precipitación</a></li>
+                            <li><a href="https://www.eltiempo.es/temperatura" target="_new">Temperatura</a></li>
+                            <li><a href="https://www.eltiempo.es/viento" target="_new">Viento</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="">Nubes</a>
+                        <ul>
+                            <li><a href="nubes.html">Tipos</a></li>
+                            <li><a href="formacionNubes.html">Formación</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="formulario.html" target="">Contacto</a></li>
+                </ul>
+            </nav>
+            <br>
+            <p>&nbsp;</p>
+
+
+        </div>
+
+
+        <div class="contenedor">
+            <div class="tarjeta submenu">
+                <img class="imagenAnchoCompleto" src="imagesMeteo/dorian-bahamas-0902_noaa-goes.jpg" />
+
+                <div class="tarjeta textoTarjeta">
+                    <span id="queEsMeteo">¿Qué es la Meteorología?</span> <br><br>Debes recordar que la Tierra está
+                    constituida por tres partes fundamentales: una parte sólida llamada <span
+                        id="litosfera">litosfera</span> recubierta en buena
+                    proporción por agua (llamada <span id="hidrosfera">hidrosfera</span>) y ambas envueltas por una
+                    tercera capa gaseosa, la
+                    <span id="atmosfera">atmósfera</span>. Estas se relacionan entre sí produciendo modificaciones
+                    profundas en sus características.
+                    La ciencia que estudia estas características, las propiedades y los movimientos de las tres capas
+                    fundamentales de la Tierra, es la Geofísica. En ese sentido, la meteorología es una rama de la
+                    geofísica que tiene por objeto el estudio detallado de la envoltura gaseosa de la Tierra y sus
+                    fenómenos.   
+                </div>
+            </div>
+            <div class="tarjeta submenuDos">
+                <p>Pincha en tu CCAA para saber qué tiempo hará</p>
+                <img class="imagenAnchoMapa" src="imagesMeteo/mapa.png" usemap="#Map" border="0" />
+                <map name="Map" id="Map">
+                    <area target="_new" alt="Andalucía" title="Andalucía" href="https://www.eltiempo.es/andalucia"
+                        coords="86,219,87,204,97,195,106,194,121,199,134,194,140,184,149,178,162,186,175,189,197,189,208,187,214,199,224,208,231,219,229,230,223,237,212,238,201,241,190,240,171,240,160,243,147,247,137,260,123,256,115,241,107,226"
+                        shape="poly">
+                    <area target="_new" alt="Castilla y León" title="Castilla y León" href="https://www.eltiempo.es/castilla-y-leon"
+                        coords="107,120,107,101,118,89,123,80,105,67,112,56,105,46,114,37,132,36,143,36,155,34,166,41,176,48,185,41,194,38,196,49,196,59,199,69,209,73,221,71,223,82,219,97,206,90,192,90,183,96,176,100,169,108,159,120,149,125,134,121,119,115"
+                        shape="poly">
+                    <area target="_new" alt="Aragón" title="Aragón" href="https://www.eltiempo.es/aragon"
+                        coords="225,95,230,82,232,71,242,71,243,57,255,39,267,42,279,44,287,45,293,57,291,69,285,75,283,86,281,95,278,105,271,107,268,111,267,120,262,126,257,132,248,130,235,120,238,103"
+                        shape="poly">
+                    <area target="_new" alt="Madrid" title="Madrid" href="https://www.eltiempo.es/en-provincia-madrid"
+                        coords="163,126,175,126,184,131,197,131,198,120,194,109,189,96,180,101,170,111" shape="poly">
+                    <area target="_new" alt="Galicia" title="Galicia" href="https://www.eltiempo.es/galicia"
+                        coords="58,63,62,52,60,41,54,28,64,22,78,19,88,9,100,13,105,21,107,32,108,37,103,44,105,50,108,58,98,68,83,68,74,61"
+                        shape="poly">
+                    <area target="_new" alt="Extremadura" title="Extremadura" href="https://www.eltiempo.es/extremadura"
+                        coords="103,124,119,119,130,123,142,126,143,138,149,148,158,155,155,163,151,172,142,178,136,185,129,192,120,197,103,192,93,182,101,168,96,155,89,142,103,144"
+                        shape="poly">
+                    <area target="_new" alt="Castilla La Mancha" title="Castilla La Mancha" href="https://www.eltiempo.es/castilla-la-mancha"
+                        coords="145,131,150,142,160,152,161,159,156,168,155,174,163,180,174,184,191,183,205,182,212,184,215,192,226,187,235,181,243,173,244,160,237,150,238,139,243,135,231,120,233,103,222,98,208,96,195,93,199,109,201,121,198,132,185,133,173,129,157,126"
+                        shape="poly">
+                    <area target="_new" alt="Comunidad Valenciana" title="Comunidad Valenciana" href="https://www.eltiempo.es/comunidad-valenciana"
+                        coords="271,109,283,110,286,116,284,125,275,135,272,145,270,156,274,165,283,173,277,180,269,184,259,202,254,191,253,179,252,168,246,156,242,147,250,133,265,127"
+                        shape="poly">
+                    <area target="_new" alt="Cataluña" title="Cataluña" href="https://www.eltiempo.es/catalunya"
+                        coords="291,40,307,46,320,53,337,53,350,50,353,61,348,72,334,81,324,89,303,97,295,104,289,116,282,102,289,82,295,59"
+                        shape="poly">
+                    <area target="_new" alt="Canarias" title="Canarias" href="https://www.eltiempo.es/canarias"
+                        coords="0,250,17,251,65,251,110,250,111,298,59,300,1,298,0,272" shape="poly">
+                    <area target="_new" alt="Baleares" title="Baleares" href="https://www.eltiempo.es/baleares"
+                        coords="306,156,327,133,351,122,376,120,385,127,384,141,372,152,355,160,337,166,319,175,305,170"
+                        shape="poly">
+                    <area target="_new" alt="Murcia" title="Murcia" href="https://www.eltiempo.es/en-provincia-murcia"
+                        coords="219,195,231,189,244,176,250,179,252,192,259,207,251,214,236,217,229,205" shape="poly">
+                    <area target="_new" alt="Navarra" title="Navarra" href="https://www.eltiempo.es/navarra"
+                        coords="216,51,224,38,233,27,251,38,245,48,240,66,234,68,229,54" shape="poly">
+                    <area target="_new" alt="Asturias" title="Asturias" href="https://www.eltiempo.es/asturias"
+                        coords="107,16,119,16,135,16,155,19,163,23,154,29,141,31,110,34,108,26" shape="poly">
+                    <area target="_new" alt="Cantabria" title="Cantabria" href="https://www.eltiempo.es/cantabria"
+                        coords="164,23,178,22,190,22,198,25,188,32,180,44,166,38,160,31" shape="poly">
+                    <area target="_new" alt="País Vasco" title="País Vasco" href="https://www.eltiempo.es/euskadi"
+                        coords="199,24,210,23,219,26,229,25,222,37,214,49,203,45,197,33" shape="poly">
+                    <area target="_new" alt="La Rioja" title="La Rioja" href="https://www.eltiempo.es/la-rioja"
+                        coords="200,48,199,58,203,64,212,68,224,68,230,66,226,56,213,50" shape="poly">
+                    <area target="" alt="" title="" href="" coords="" shape="0">
+                </map>
+                <br>
+                <div class="tarjeta textoTarjetaDos">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/emPKer_pV14" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+        <h3>¿Cuál es el principal factor para que el tiempo vaya cambiando?</h3>
+        <table  border="3">
+           
+            <tr>
+                
+                <td rowspan="2"><img src="imagesMeteo/jetstream.jpg" width="250" /></td>
+                <th>¿Qué es el Jet Stream o Corriente en chorro?</th>
+            </tr>
+            <tr>
+                <th>En la Tierra, según la Organización Meteorológica Mundial, una corriente en chorro es una fuerte y
+                    estrecha corriente de aire concentrada a lo largo de un eje casi horizontal en la alta troposfera o
+                    en la estratosfera, caracterizada por una fuerte cizalladura vertical y horizontal del viento.
+                    Presentando uno o dos máximos de velocidad, la corriente en chorro discurre, normalmente, a lo largo
+                    de varios miles de kilómetros, en una franja de varios centenares de kilómetros de anchura y con un
+                    espesor de varios kilómetros.</th>
+          
+        </tr>
+        </table>
+        <p>&nbsp;</p>
+        
+        <div class="tarjeta submenuCuatro">
+            <table border="2">
+                <tr>
+                    <td>
+                        <h4>¿Qué tipos de precipitación existen?</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="orograficas.html">Orográficas</a></li>
+                            <li><a href="frentes.html">Frontales</a></li>
+                            <li><a href="convectivas.html"> Convectivas</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p>&nbsp;</p>
+        <div class="tarjeta submenuCuatro">
+            <table border="2">
+                <tr>
+                    <td>
+                        <h4>Algunos fenómenos meteorológicos</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ol>
+                            <li><a href="gotaFria.html">Gota fría</a></li>
+                            <li><a href="terral.html">Terral</a></li>
+                            <li><a href="huracan.html">Huracán</a></li>
+                            <li><a href="nieve.html">Nieve</a></li>
+
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p>&nbsp;</p>
+        <div class="menuRRSS">
+            <img src="imagesMeteo/logo1.png" usemap="#logos"/>
+            <map name="logos" id="logos">
+                <area target="_new" alt="Facebook" title="Facebook" href="https://es-es.facebook.com/" coords="72,52,60" shape="circle">
+                <area target="_new" alt="Twitter" title="Twitter" href="https://twitter.com/?lang=es" coords="190,54,54" shape="circle">
+                <area target="_new" alt="Instagram" title="Instagram" href="https://www.instagram.com/?hl=es" coords="310,54,58" shape="circle">
+                <area target="" alt="Whatsapp" title="Whatsapp" href="" coords="434,53,58" shape="circle">
+            </map>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
